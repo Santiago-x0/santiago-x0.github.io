@@ -18,12 +18,25 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 2rem 15%;
+    z-index: 1000;
+    animation: slideDown 2s forwards;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 header a {
     color: #fff;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .Nav-bar {
@@ -57,18 +70,17 @@ section {
 
 #hero {
     opacity: 0;
-    transform: translateX(20px);
     animation: fadeInUp 2s forwards;
 }
 
 @keyframes fadeInUp {
     from {
         opacity: 0;
-        transform: translateX(20px);
+        transform: translateY(20px);
     }
     to {
         opacity: 1;
-        transform: translateX(0);
+        transform: translateY(0);
     }
 }
 
@@ -78,6 +90,6 @@ section {
 }
 
 #hero p {
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #ccc;
 }
