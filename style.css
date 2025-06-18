@@ -17,12 +17,67 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 5rem;
+    padding: 2rem 15%;
 }
 
 header a {
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
-    margin: 1rem;
+    font-size: 1.2rem;
+}
+
+.Nav-bar {
+    display: flex;
+    gap: 1rem;
+}
+
+/* Main Content */
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    padding: 0 15%;
+}
+
+.hero-content {
+    margin-bottom: 10rem;
+}
+
+.hero-content a {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #6c38a1;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#hero {
+    opacity: 0;
+    transform: translateX(20px);
+    animation: fadeInUp 2s forwards;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+#hero h2 {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+}
+
+#hero p {
+    font-size: 1rem;
+    color: #ccc;
 }
