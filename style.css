@@ -149,10 +149,22 @@ main {
 }
 
 .project-card input {
+    text-align: center;
     background-color: #222;
     color: #ccc;
     width: 80%;
 }
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    appearance: textfield;
+}
+
 
 .project-card button {
     background-color: #6a0dad;
