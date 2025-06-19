@@ -38,6 +38,10 @@ function generatePassword() {
 // Funcion que genera un hash md5
 function encodeMD5() {
   const input = document.getElementById('md5Input').value; // obtener el texto a codificar
+  if (input === "") { // verificar que el input no esté vacío
+    document.getElementById('md5Result').textContent = "Error: Ingrese un texto válido.";
+    return;
+  }
   const hash = CryptoJS.MD5(input).toString(); // uso de la libnrería CryptoJS para generar el hash MD5
   document.getElementById('md5Result').textContent = hash; // mostrar el hash generado
 }

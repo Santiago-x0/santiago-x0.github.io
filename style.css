@@ -23,6 +23,8 @@ header {
     align-items: center;
     padding: 2rem 15%;
     z-index: 1000;
+    opacity: 0;
+    animation: fadeInUp 2s forwards;
 }
 
 header a {
@@ -103,9 +105,16 @@ main {
 }
 
 .projects-content {
+    margin-top: 2rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 2rem;
+}
+
+.projects-content h1 {
+    margin: auto;
+    margin-left: 0;
+    font-size: 2rem;
 }
 
 .project-card {
@@ -174,4 +183,17 @@ input[type="number"] {
 .project-card button:hover {
     background-color: #8a2be2;
     color: white;
+}
+
+/* about section */
+
+#about {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 0 15%;
+}
+
+.about-content {
+    margin: auto;
 }
