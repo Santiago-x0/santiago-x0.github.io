@@ -29,15 +29,22 @@
       <div class="projects-content">
         <div class="project-card">
           <h3>Generador de contraseñas</h3>
-          <p>Descripción del proyecto 1.</p>
+          <p>Genera una contraseña segura de forma aleatoria.</p>
+          <input type="number" id="length" placeholder="Longitud de la contraseña" min="4" max="32">
+          <button onclick="generatePassword()">Generar</button>
+          <p id="result"></p>
         </div>
         <div class="project-card">
           <h3>Codificador MD5</h3>
-          <p>Descripción del proyecto 2.</p>
+          <p>Codificador de texto a hash MD5.</p>
+          <input type="text" id="md5Input" placeholder="Texto a codificar">
+          <button onclick="encodeMD5()">Codificar</button>
+          <p id="md5Result"></p>
         </div>
       </div>
     </section>
   </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
