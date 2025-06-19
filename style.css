@@ -64,7 +64,7 @@ main {
 }
 
 .hero-content {
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
 }
 
 .hero-content a {
@@ -103,7 +103,6 @@ main {
 }
 
 .projects-content {
-    margin-bottom: 5rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 2rem;
@@ -167,7 +166,7 @@ input[type="number"] {
 
 
 .project-card button {
-    background-color: #6a0dad;
+    background-color: #6c38a1;
     color: black;
     cursor: pointer;
 }
