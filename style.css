@@ -27,15 +27,27 @@ header {
     animation: fadeInUp 2s forwards;
 }
 
-header a {
-    color: #fff;
+.logo a {
     text-decoration: none;
-    font-size: 1rem;
+    font-family: "UnifrakturCook", cursive;
+    font-size: 1.5rem;
+    color: #6c38a1;
+    letter-spacing: 2px;
 }
 
 .nav-bar {
     display: flex;
     gap: 1rem;
+}
+
+.nav-bar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+header a:hover {
+    color: #6c38a1;
 }
 
 /* *************************** Main Content *************************** */
