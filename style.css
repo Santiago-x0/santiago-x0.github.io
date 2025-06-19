@@ -197,3 +197,42 @@ input[type="number"] {
 .about-content {
     margin: auto;
 }
+
+.about-content h1 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.about-content p {
+    font-size: 1rem;
+    color: #ccc;
+    margin-top: 1rem;
+}
+
+.skills {
+    margin-top: 1.2rem;
+}
+
+.skill {
+    margin-top: 1rem;
+}
+
+.skill span {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 12px;
+    background-color: #333;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    background-color: #6c38a1;
+    border-radius: 6px;
+    transition: width 0.5s ease-in-out;
+}
