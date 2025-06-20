@@ -248,3 +248,24 @@ input[type="number"] {
     border-radius: 6px;
     transition: width 0.5s ease-in-out;
 }
+
+/* Contact Section */
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 0 15%;
+}
+
+.contact-content {
+    margin: auto;
+}
+
+/* footer */
+
+footer {
+    color: #ccc;
+    text-align: center;
+    padding: 1rem 15%;
+}
