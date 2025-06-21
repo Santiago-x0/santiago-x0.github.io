@@ -273,6 +273,7 @@ input[type="number"] {
     font-size: 1.2rem;
     color: #ccc;
     margin-top: 1rem;
+    text-align: center;
 }
 
 .social-media {
@@ -281,10 +282,19 @@ input[type="number"] {
     margin-top: 1.5rem;
 }
 
+.mail {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #6c38a1;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
 /* footer */
 
 footer {
+    font-size: .9rem;
     color: #ccc;
     text-align: center;
-    padding: 1rem 15%;
+    padding: 1rem 5%;
 }
