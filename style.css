@@ -124,9 +124,9 @@ main {
 }
 
 .projects-content h1 {
-    margin: auto;
     margin-left: 0;
     font-size: 2rem;
+    text-align: center;
 }
 
 .project-card {
