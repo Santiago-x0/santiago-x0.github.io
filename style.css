@@ -259,7 +259,26 @@ input[type="number"] {
 }
 
 .contact-content {
+    display: flex;
+    flex-direction: column;
     margin: auto;
+    align-items: center;
+}
+
+.contact-content h1 {
+    font-size: 1.5rem;
+}
+
+.contact-content p {
+    font-size: 1.2rem;
+    color: #ccc;
+    margin-top: 1rem;
+}
+
+.social-media {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
 }
 
 /* footer */
